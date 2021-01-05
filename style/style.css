@@ -86,3 +86,9 @@ header nav a:hover{
 .film-princ .container{
     width: 40rem;
 }
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
