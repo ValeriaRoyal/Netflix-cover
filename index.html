@@ -6,26 +6,53 @@
     <meta name="description" content="Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.">
     <meta name="keywords" content="Interface, streaming, HTML5, CSS3, JavaScript, containers, Flexbox, Jquery">
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <title>Netflix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2>Netflix</h2>
+            <h2 class="logo">Netflix</h2>
             <nav>
-                <a href="#" target="_blank" rel="noopener noreferrer">Inicio</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Séries</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Filmes</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Bombando</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Minha lista</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Assista de novo</a>
+                <a href="#"  rel="noopener noreferrer">Inicio</a>
+                <a href="#"  rel="noopener noreferrer">Séries</a>
+                <a href="#"  rel="noopener noreferrer">Filmes</a>
+                <a href="#"  rel="noopener noreferrer">Bombando</a>
+                <a href="#"  rel="noopener noreferrer">Minha lista</a>
+                <a href="#"  rel="noopener noreferrer">Assista de novo</a>
+                <a href="#"  rel="noopener noreferrer"><img src="./img/pesquisa.png" alt="Botão de pesquisa"></a>
+                <a href="#"  rel="noopener noreferrer">Infantil</a>
+                <a href="#"  rel="noopener noreferrer"><img src="./img/presente.png" alt="Link de presente"></a>
+                <a href="#"  rel="noopener noreferrer"><img src="./img/aviso.png" alt="Lista de avisos"></a>
             </nav>
         </div>
     </header>
-    
+    <main>
+        <div class="film-princ">
+            <div class="container">
+                <img class="titulo" src="./img/meditacao.png" alt="Headspace Meditação guiada">
+                <p class="descrip">Respire. É hora voltar ao zero, conectar-se consigo mesmo e com os outros e buscar paz de espírito. Aprenda a meditar.</p>
+                <div class="botoes">
+                    <button class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
 
     </footer>
+    <script src="https://kit.fontawesome.com/24371416d7.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
 </body>
 </html>

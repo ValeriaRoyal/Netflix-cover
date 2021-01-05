@@ -1,3 +1,88 @@
 :root{
-     
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Netflix Sans', 'Helvetica';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:  #cecece;
+}
+
+/*FILME PRINCIPAL*/
+
+.film-princ{
+    color: #ffffff;
+    font-size: 16px;
+    background:linear-gradient(to right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("../img/medita.jpg") ;
+    
+    height: 35rem;
+    background-size: cover; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+}
+
+.film-princ .descrip{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+
+}
+.titulo{
+
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 1vw;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 1rem;
+}
+
+.film-princ .container{
+    width: 40rem;
 }
