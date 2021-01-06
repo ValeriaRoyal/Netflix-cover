@@ -14,19 +14,21 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    padding: 1%;
 }
 
 header .logo{
     color: var(--vermelho);
     font-family: 'Netflix Sans', 'Helvetica';
-    font-size: 40px;
+    font-size: 50px;
 }
 
 header nav a{
     text-decoration: none;
     color: #ffffff;
     margin-right: 10px;
+    padding-top: 10px;
+    font-size: 30px;
 }
 
 header nav a:hover{
@@ -37,10 +39,10 @@ header nav a:hover{
 
 .film-princ{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 30px;
     background:linear-gradient(to right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("../img/medita.jpg") ;
     
-    height: 35rem;
+    height: 40rem;
     background-size: cover; 
     
     display: flex;
@@ -52,8 +54,6 @@ header nav a:hover{
 .film-princ .descrip{
     margin-top: 1rem;
     margin-bottom: 2rem;
-
-
 }
 .titulo{
 
@@ -63,16 +63,24 @@ header nav a:hover{
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
-    padding: 15px 30px;
+    padding: 30px 60px;
     margin-right: 1vw;
-    font-size: 12px;
+    font-size: 30px;
     cursor: pointer;
     transition: .3s ease all;
+    border-radius: 10px;
 }
 
-.botao:hover{
+.botao:nth-child(1){
     background-color: white;
-    color: black;
+    color: var(--preto);
+}
+.botao:nth-child(2){
+    background-color:rgba(0, 0, 0, .50);
+    color: white;
+}
+.botao:hover{
+    background-color:rgba(0, 0, 0, .20);
 }
 
 .botao i{
@@ -84,7 +92,7 @@ header nav a:hover{
 }
 
 .film-princ .container{
-    width: 40rem;
+    width: 100%;
 }
 
 .box-film{
